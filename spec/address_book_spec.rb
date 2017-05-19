@@ -8,6 +8,7 @@ RSpec.describe AddressBook do
     expect(entry.phone_number).to eq expected_number
     expect(entry.email).to eq expected_email
   end
+  
   describe "attributes" do
     it "responds to entries" do
       expect(book).to respond_to(:entries)
